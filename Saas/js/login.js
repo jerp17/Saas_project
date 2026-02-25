@@ -26,7 +26,8 @@ btn.addEventListener("click", () => {
     localStorage.setItem("loggedIn", "true");
 
     // Redirect to dashboard
-    window.location.href = "/html/dashboard.html";
+    window.location.href = "Saas/html/dashboard.html";
 }
+
 
 });
