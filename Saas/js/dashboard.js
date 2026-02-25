@@ -6,7 +6,7 @@ const isLoggedIn = localStorage.getItem("loggedIn");
 
 if(isLoggedIn !== "true"){
     // Not logged in → go to login page
-    window.location.href = "login.html";
+    window.location.href = "Saas/html/login.html";
 }
 
 // Get user
@@ -27,4 +27,5 @@ logoutBtn.addEventListener("click", () => {
 function logout(){
     localStorage.removeItem("loggedIn");
     window.location.href = "index.html";
+
 }
