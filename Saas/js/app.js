@@ -1,7 +1,7 @@
 const isLoggedIn = localStorage.getItem("loggedIn");
 
 if(isLoggedIn === "true"){
-    window.location.href = "/html/dashboard.html";
+    window.location.href = "Saas/html/dashboard.html";
 }
 const nameInput = document.getElementById("name");
 const emailInput = document.getElementById("email");
@@ -54,5 +54,6 @@ btn.addEventListener("click", () => {
 };
 
 localStorage.setItem("user", JSON.stringify(user));
+
 
 });
